@@ -1,0 +1,251 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #007bff; /* Bleu vif */
+  color: white;
+  border-radius: 0; /* Supprime les bords arrondis */
+  width: 100%;
+  position: fixed; /* Fixe en haut de l'écran */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Toujours au-dessus du contenu */
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Espacement entre les liens */
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #0056b3;
+  border-radius: 5px;
+}
+
+.navbar {
+  background-color: #007bff; /* Bleu */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: normal; /* Suppression du gras */
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+
+
+
+
+
+/* Général */
+body {
+  
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Titres */
+h2, h3 {
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2rem;
+  border-bottom: 3px solid #007bff;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-top: 30px;
+}
+
+/* Image de profil */
+.profile-img {
+  width: 500px;
+  height: 700px;
+
+  
+
+  
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Permet le retour à la ligne si nécessaire */
+  gap: 20px; /* Espacement entre les images */
+  padding: 20px;
+}
+
+.container2 img {
+  width: 100px; /* Ajuste la taille des images */
+  height: auto;
+}
+
+
+
+
+
+.image {
+  width: 300px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+/* Fenêtre modale */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+/* Affichage de la modale lorsque ciblée */
+.modal:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+}
+
+/* Bouton de fermeture */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.image-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Centre les images */
+    gap: 500px; /* Espace entre les images */
+    margin-top: 20px;
+}
+
+.image {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Modale */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.modal:target {
+    display: flex;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
