@@ -81,6 +81,10 @@ body {
   margin: auto;
   padding: 20px;
 }
+.mt-4 {
+
+    margin-top: 0px; /* ou même 0 si tu veux coller */ 
+}
 
 /* Titres */
 h2, h3 {
@@ -95,8 +99,10 @@ h2 {
 }
 
 h3 {
-  font-size: 1.8rem;
-  margin-top: 30px;
+   
+    font-size: 1.8rem;
+    margin-top: 0%; /* ou même 0 si tu veux coller */
+  
 }
 
 /* Image de profil */

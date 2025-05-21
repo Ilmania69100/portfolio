@@ -107,3 +107,74 @@ a:hover {
         width: 95%;
     }
 }
+
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .veille-section {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .veille-section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .veille-section h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #ff4c3b;
+    margin: 8px auto 0;
+    border-radius: 10px;
+  }
+  
+  .veille-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  
+  .veille-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .veille-logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .pocket {
+    width: 180px;
+  }
+  
+  .btn {
+    background-color: #ff4c3b;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #e03b2d;
+  }
+  
